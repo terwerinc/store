@@ -6,14 +6,15 @@ export const GET = async () => {
             return Response.json({error: `HTTP error! Status: ${res.status}`, data: null});
         }
 
-        const contentType = res.headers.get('content-type');
-        if (!contentType || !contentType.includes('application/json')) {
-            return Response.json({error: 'Response is not in JSON format', data: null});
+        let data;
+        try {
+            data = await res.json();
+        } catch (e1: any) {
+            return Response.json({error: `Error parsing JSON: ${e1.message}`, data: null});
         }
 
-        const data = await res.json();
         return Response.json(data);
-    } catch (e: any) {
-        return Response.json({error: e.message, data: null});
+    } catch (e2: any) {
+        return Response.json({error: e2.message, data: null});
     }
 };

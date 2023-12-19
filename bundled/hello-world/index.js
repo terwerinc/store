@@ -1,15 +1,17 @@
-const ptapi = globalThis.ptapi
-
-class HelloWorldAdaptor extends ptapi.BaseBlogApi {
-    async onMount(){
+export default class HelloWorldAdaptor extends globalThis.ptapi.BaseBlogApi {
+    async postConstruct() {
         console.log("HelloWorldAdaptor mounted")
     }
 
-    async getMetaData(){
+    async beforeDestroy() {
+        console.log("HelloWorldAdaptor unmounted")
+    }
+
+    async getMetaData() {
         console.log("getMetaData invoked at HelloWorldAdaptor")
     }
 
-    async getUsersBlogs(){
+    async getUsersBlogs() {
         console.log("getUsersBlogs invoked at HelloWorldAdaptor")
     }
 
@@ -17,17 +19,11 @@ class HelloWorldAdaptor extends ptapi.BaseBlogApi {
         console.log("newPost invoked at HelloWorldAdaptor")
     }
 
-    async editPost(postid, post, publish = true){
+    async editPost(postid, post, publish = true) {
         console.log("editPost invoked at HelloWorldAdaptor")
     }
 
-    async deletePost(postid){
+    async deletePost(postid) {
         console.log("deletePost invoked at HelloWorldAdaptor")
     }
-
-    async onUnmount(){
-        console.log("HelloWorldAdaptor unmounted")
-    }
 }
-
-ptapi.mount(HelloWorld)

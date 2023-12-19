@@ -1,0 +1,25 @@
+{
+  "datetime": 1702955144936,
+  "packages": [
+    {
+      "title": "Hello Word",
+      "description": "Hello word is simple",
+      "author": "terwer",
+      "repo": "terwerinc/store",
+      "icon": "icon.png",
+      "product": "publisher-pro",
+      "id": "hello-world",
+      "addedAt": 1634165328000
+    },
+    {
+      "title": "Plugin sample",
+      "description": "This is offical plugin sample by Terwer Inc.",
+      "author": "terwer",
+      "repo": "terwerinc/store",
+      "icon": "icon.png",
+      "product": "publisher-pro",
+      "id": "plugin-sample",
+      "addedAt": 1649196269000
+    }
+  ]
+}

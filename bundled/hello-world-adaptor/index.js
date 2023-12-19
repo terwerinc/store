@@ -1,4 +1,4 @@
-(() => {
+;(() => {
     class HelloWorldAdaptor extends globalThis.ptapi.BaseBlogApi {
         async postConstruct() {
             console.log("HelloWorldAdaptor mounted")
@@ -29,5 +29,5 @@
         }
     }
 
-    globalThis.ptapi.registerAdaptor(HelloWorldAdaptor)
+    return HelloWorldAdaptor
 })()

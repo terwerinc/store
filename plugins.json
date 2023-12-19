@@ -1,16 +1,22 @@
 {
   "datetime": 1702955144936,
-  "packages": [
-    {
-      "title": "Hello World",
-      "description": "Hello world is simple",
-      "author": "terwer",
-      "repo": "terwerinc/store",
-      "main": "bundled/hello-world/index.js",
-      "icon": "icon.png",
-      "product": "publisher-pro",
-      "id": "hello-world",
-      "addedAt": 1634165328000
-    }
-  ]
+  "packages": {
+    "publisher-pro": [
+      {
+        "title": "Hello word adaptor",
+        "description": "simple adaptor",
+        "author": "terwer",
+        "repo": "terwerinc/store",
+        "main": "bundled/hello-world-adaptor/index.js",
+        "icon": "icon.png",
+        "id": "hello-world",
+        "addedAt": 1634165328000
+      }
+    ],
+    "local-service": [
+      {
+        "title": "Hello world service"
+      }
+    ]
+  }
 }

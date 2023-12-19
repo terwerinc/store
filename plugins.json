@@ -3,10 +3,10 @@
   "packages": [
     {
       "title": "Hello World",
-      "description": "Hello word is simple",
+      "description": "Hello world is simple",
       "author": "terwer",
       "repo": "terwerinc/store",
-      "main": "bundled/hello-word/index.js",
+      "main": "bundled/hello-world/index.js",
       "icon": "icon.png",
       "product": "publisher-pro",
       "id": "hello-world",

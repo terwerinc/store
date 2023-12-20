@@ -3,7 +3,7 @@
   "packages": {
     "publisher-pro": [
       {
-        "title": "Hello word plugin",
+        "title": "Hello world plugin",
         "description": "simple plugin",
         "author": "terwer",
         "repo": "terwerinc/store",

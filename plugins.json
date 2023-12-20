@@ -3,11 +3,11 @@
   "packages": {
     "publisher-pro": [
       {
-        "title": "Hello word adaptor",
-        "description": "simple adaptor",
+        "title": "Hello word plugin",
+        "description": "simple plugin",
         "author": "terwer",
         "repo": "terwerinc/store",
-        "main": "bundled/hello-world-adaptor/index.js",
+        "main": "bundled/hello-world-plugin/index.js",
         "icon": "icon.png",
         "id": "hello-world",
         "addedAt": 1634165328000

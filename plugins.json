@@ -11,6 +11,16 @@
         "icon": "icon.png",
         "id": "hello-world",
         "addedAt": 1634165328000
+      },
+      {
+        "title": "语雀插件",
+        "description": "发布工具插件，支持将文章发布到语雀",
+        "author": "terwer",
+        "repo": "terwerinc/store",
+        "main": "bundled/yuque-plugin/index.js",
+        "icon": "icon.png",
+        "id": "common_Yuque",
+        "addedAt": 1704103790000
       }
     ],
     "local-service": [

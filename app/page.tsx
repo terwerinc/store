@@ -1,3 +1,6 @@
 export default function Home() {
-  return <h1>Welcome home!</h1>;
+    return <div>
+        <h1>Welcome to Publisher Store!</h1>
+        <p>© 2010-2024 Terwer Inc. All Rights Reserved.</p>
+    </div>;
 }

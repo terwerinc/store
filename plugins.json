@@ -8,7 +8,7 @@
         "author": "terwer",
         "repo": "terwerinc/store",
         "main": "bundled/hello-world-plugin/index.js",
-        "icon": "icon.png",
+        "icon": "https://api.iconify.design/clarity:plugin-line.svg",
         "id": "hello-world",
         "addedAt": 1634165328000
       },
@@ -18,7 +18,7 @@
         "author": "terwer",
         "repo": "terwerinc/store",
         "main": "bundled/yuque-plugin/index.js",
-        "icon": "icon.png",
+        "icon": "https://api.iconify.design/ri:yuque-line.svg",
         "id": "common_Yuque",
         "addedAt": 1704103790000
       }

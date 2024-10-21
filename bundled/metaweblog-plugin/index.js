@@ -1,5 +1,5 @@
 export default class MetaweblogPlugin extends BasePlugin {
-    async postConstruct() {
+    postConstruct() {
         console.log("MetaweblogPlugin inited")
     }
 }
